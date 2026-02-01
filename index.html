@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--NAVBAR-->
+<nav>
+  <div class="left-section">
+    <a href="/">Tshegofatso Mokgope</a>
+  </div>
+  <div class="right-section">
+    <!-- <a href="https://github.com/Tshego888" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+      <span>GitHub</span>
+    </a>
+    <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+    </a> -->
+    <a href="mailto:tshmok123@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+    </a>
+  </div>
+</nav>
+
+
+<main>
+
+  <!--Hero Section-->
+  <section class = "hero-section">
+   <div class = "text">
+    <h2>Hello, I'm Tshego</h2>
+    <p>
+      Hi, I’m Tshegofatso Mokgope — a passionate web developer with a strong focus on front-end and back-end development. I specialize in Javascript, React, React Native, Ant Design, and Supabase, and enjoy turning ideas into functional, user-friendly web/mobile applications.
+    </p>
+      <div class="links">
+        <a href=#skills>
+          <i class="fa-solid fa-code"></i>
+          <span>
+            Skills
+          </span>
+        </a>
+ 
+        <a href=#projects>
+          <i class="fa-solid fa-pen"></i>
+          <span>
+            Projects
+          </span>
+        </a>
+
+        <a href=#contact>
+          <i class="fa-solid fa-envelope"></i>
+          <span>
+            Contact
+          </span>
+        </a>
+      </div>
+   </div>
+   <div class = "headshot">
+    <img src="images/headshot.jpg" alt="My headshot">
+   </div>
+
+  </section> 
+
+  <!--Skills-->
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="text">Proficient in React, React Native, and JavaScript, with hands-on experience building full-stack web applications. Experienced in integrating Supabase for backend services and using Ant Design for building responsive and modern user interfaces.
+    </div>
+
+    <div class ="cells">
+      <div class = "cell">
+        <img src="images/js.svg" alt="">
+        <span>
+          JavaScript
+        </span>
+      </div>
+
+      <div class = "cell">
+        <img src="images/react-solid.svg" alt="">
+        <span>
+          React
+        </span>
+      </div>
+
+      <div class = "cell">
+        <img src="images/react-16-svgrepo-com.svg" alt="">
+        <span>
+          React Native
+        </span>
+      </div>
+
+      <div class = "cell">
+        <img src="images/antdesign-svgrepo-com.svg" alt="">
+        <span>
+          Ant Design
+        </span>
+      </div>
+
+      <div class = "cell">
+        <img src="images/supabase.svg" alt="">
+        <span>
+          Supabase
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!--Testimony-->
+  <section id="projects" section class="testimony-section">
+    <h2>Projects</h2>
+
+    <div class = "group">
+      <div class = "person-details">
+        <a href="https://transactions-app-jade.vercel.app/" target="_blank">
+          <img src="images/transactions-app.png" alt="">
+        </a>        
+
+        
+        <p>Transactions Management App</p>
+        <p>Full stack application built with React and Supabase</p>
+      </div>
+
+      <div class = "person-details">
+        <a href="https://tshego888.github.io/YouTube_front-end/youtube.html" target="_blank">
+          <img src="images/YT-pic.png" alt="">
+        </a>
+        
+        <p>YouTube Clone</p>
+        <p>Frontend YouTube Clone </p>
+      </div>
+
+    </div>
+  </section>  
+
+  
+  <!-- Contact-->
+  
+  <section id="contact" section class="contact-section">
+    <h2>Contact</h2>
+
+    <div class="group">
+      <div class="text">
+        <p>
+          I’m always open to collaborating on exciting projects, discussing innovative ideas, or exploring opportunities. Feel free to reach out—I’d love to hear from you.
+        </p>
+      </div>  
+        <form action="https://formspree.io/f/xwvqkgkj" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+  </section>
+
+</main>
+
+
+</body>
+</html>
