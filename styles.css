@@ -1,7 +1,7 @@
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
-  --background-color: #eeeff1;
+  --background-color: #dde3f0;
 }
 
 * {
@@ -222,6 +222,8 @@ nav .right-section a span {
   flex: 8;
 }
 
+
+
 /* Contact */
 
 .contact-section {
@@ -236,6 +238,7 @@ nav .right-section a span {
 .contact-section .group {
   display: flex;
   gap: 50px;
+  
 }
 
 .contact-section .group .text{
